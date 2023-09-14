@@ -1,0 +1,155 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Oswald&family=Roboto+Serif:opsz@8..144&family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;;
+    font-size: 25px;
+}
+
+/* HEADER */
+
+.miBarra {
+    color: black;
+}
+
+
+.miLogo {
+   width: 250px;
+   
+}
+ header {
+    border-top: 10px solid red
+ }
+
+ .misUl:hover {
+    background-color: red;
+    cursor: pointer;
+ }
+
+ .tituloHerramientas {
+    background-color: red;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 10px;
+ }
+
+ /* Tarjetas */
+
+.cardHerramienta {
+    text-align: center;
+    margin: 10px;
+}
+
+.cardHerramienta h5 {
+    text-transform: uppercase;
+    color: red;
+}
+
+/* Carrousell */
+.miCarrousell {
+   margin-top: 10px;
+
+}
+
+.miCarrousell img {
+    height: 65vh;
+
+}
+
+.claseRama {
+    background-color: red;
+    color: wheat;
+    text-align: center;
+}
+
+.contenedoR1 {
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+}
+
+/* paginas en mantenimiento */
+
+.paginaMantenimiento {
+    text-align: center;
+}
+
+/* footer */
+
+.pieDePagina {
+    width: 100%;
+    background-color: rgb(6, 6, 77);
+}
+
+.pieDePagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+
+}
+
+.pieDePagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pieDePagina .grupo-1 .box figure img {
+    width: 300px;
+}
+
+.pieDePagina .grupo-1 .box h2 {
+    color: wheat;
+    margin-bottom: 25px;
+    font-size: 20px;
+
+}
+
+h2 {
+    color: wheat;
+    font-size: 20px;
+}
+
+.pieDePagina .grupo-1 .box p {
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.redesSociales {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.pieDePagina .grupo-2 {
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+
+.pieDePagina .grupo-2 small {
+    font-size: 15px;
+
+}
+
+@media screen and (max-width:800px) {
+    .pieDePagina .grupo-1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+        text-align: center;
+    }
+}
